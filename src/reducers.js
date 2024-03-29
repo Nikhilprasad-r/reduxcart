@@ -13,7 +13,7 @@ const initialState = {
       brand: "Apple",
       category: "smartphones",
       thumbnail:
-        "https://jmskart.com/wp-content/uploads/2023/12/full_body_housing_for_apple_iphone_9_white_maxbhi.com_41205.jpg",
+        "https://images.macrumors.com/t/LOfu9VLk4WvjtKmnQtzdS67Rr3w=/800x0/smart/article-new/2016/05/iphone8gold.jpg?lossy",
       images: [
         "https://i.dummyjson.com/data/products/1/1.jpg",
         "https://i.dummyjson.com/data/products/1/2.jpg",
@@ -34,7 +34,7 @@ const initialState = {
       brand: "Apple",
       category: "smartphones",
       thumbnail:
-        "https://images-cdn.ubuy.co.in/634e40218433e81d083d1061-apple-iphone-x-256gb-space-gray.jpg",
+        "https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg?downsize=*:180",
       images: [
         "https://i.dummyjson.com/data/products/2/1.jpg",
         "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -54,7 +54,7 @@ const initialState = {
       brand: "Samsung",
       category: "smartphones",
       thumbnail:
-        "https://m.media-amazon.com/images/I/51AjohATwIL._SX300_SY300_QL70_FMwebp_.jpg",
+        "https://www.refurbished.store/cache/images/refurbished-samsung-galaxy-s9-goud_600x600_BGresize_16777215-tj.png",
       images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
     },
     {
@@ -67,8 +67,7 @@ const initialState = {
       stock: 123,
       brand: "OPPO",
       category: "smartphones",
-      thumbnail:
-        "https://m.media-amazon.com/images/I/41c-ntTAC8L._SX300_SY300_QL70_FMwebp_.jpg",
+      thumbnail: "https://m.media-amazon.com/images/I/617De8WdrdS._SX679_.jpg",
       images: [
         "https://i.dummyjson.com/data/products/4/1.jpg",
         "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -89,7 +88,7 @@ const initialState = {
       brand: "Huawei",
       category: "smartphones",
       thumbnail:
-        "https://5.imimg.com/data5/IW/JQ/YY/SELLER-6131802/huawei-p40-g-500x500.jpg",
+        "https://m.media-amazon.com/images/I/61jJeZBliWL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
       images: [
         "https://i.dummyjson.com/data/products/5/1.jpg",
         "https://i.dummyjson.com/data/products/5/2.jpg",
