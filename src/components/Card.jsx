@@ -20,10 +20,13 @@ const Card = ({ item, index }) => {
   const handleRemoveButtonClick = () => {
     dispatch(removeItem(index));
   };
+  const totalCost = item.price * (item.selectedQuantity || 0);
 
   return (
     <div className="cart-item d-md-flex justify-content-between">
-      <button onClick={handleRemoveButtonClick}>Remove</button>
+      <span onClick={handleRemoveButtonClick} className="remove-item">
+        <i className="fa fa-times">x</i>
+      </span>
       <div className="px-3 my-3">
         <a className="cart-item-product" href="#">
           <div className="cart-item-product-thumb">
@@ -47,8 +50,14 @@ const Card = ({ item, index }) => {
           </select>
         </div>
       </div>
-      <div className="px-3 my-3 text-center">
+      <div className="px-3 my-5 text-center">
+        <div className="">*</div>
+      </div>
+      <div className="px-3 my-5 text-center">
         <div className="fw-bold">${item.price}</div>
+      </div>
+      <div className="px-3 my-5 text-center">
+        <div className="fw-bold">${totalCost.toFixed(2)}</div>{" "}
       </div>
     </div>
   );
