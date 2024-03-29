@@ -113,10 +113,16 @@ const cartSlice = createSlice({
     updateQuantity(state, action) {
       const { index, quantity } = action.payload;
       state.productsData[index].selectedQuantity = quantity;
+      state.total = state.productsData.reduce((total, product) => {
+        return total + product.price * (product.selectedQuantity || 0);
+      }, 0);
     },
     removeItem(state, action) {
       const index = action.payload;
       state.productsData.splice(index, 1);
+      state.total = state.productsData.reduce((total, product) => {
+        return total + product.price * (product.selectedQuantity || 0);
+      }, 0);
     },
   },
 });
